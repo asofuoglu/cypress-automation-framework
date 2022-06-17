@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://webdriveruniversity.com",
+  "chromeWebSecurity": false,
+  "env": {
+    "webdrivernui_homepage": "https://webdriveruniversity.com"
+  },
+  "projectId": "63wmuk"
+}

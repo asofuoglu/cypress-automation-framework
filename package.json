@@ -1,0 +1,21 @@
+{
+  "name": "cypress-automation-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:dashboard":"cypress run --record --key 1bbe02ff-7513-482e-b99c-8fa33d8268a1",
+    "triggerAllTests-headless":"npx cypress run",
+    "triggerAllTests-headed":"npx cypress run --headed",
+    "triggerAllTests-chrome":"npx cypress run --browser chrome",
+    "triggerAllTests-webdriveruni":"npx cypress run --spec cypress/integration/uni/*"
+    
+  },
+  "author": "asofuoglu",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-xpath": "^1.6.2"
+  }
+}
