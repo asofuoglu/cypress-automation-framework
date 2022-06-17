@@ -8,7 +8,7 @@ class AutoStore_Haircare_PO {
                cy.wrap($el).click();  //product details page
                cy.get('.cart').click(); //add to basket
                cy.get("a[href*='product/category&path=']").contains("Hair Care").click();  //return bask for other product
-    
+    //NEW COMMENT
             }
         });
     }
